@@ -9,7 +9,7 @@
 
 A remote code execution vulnerability within GeoServer is currently under active exploitation, with recent incidents targeting 40,000 sensors. This vulnerability is being exploited by the Earth Baxia APT group, as reported by FortiGuard Recon. The root cause of this vulnerability lies in the absence of proper input validation during request handling, posing a significant risk of system compromise upon successful exploitation. 
 
- The **Outbreak Response - GeoServer RCE Attack** solution pack works with the Threat Hunt rules in [Outbreak Response Framework](https://github.com/fortinet-fortisoar/solution-pack-outbreak-response-framework/blob/release/1.1.0/README.md#threat-hunt-rules) solution pack to conduct hunts that identify and help investigate potential Indicators of Compromise (IOCs) associated with this vulnerability within operational environments of *FortiSIEM*, *FortiAnalyzer*, *QRadar*, *Splunk*, and *Azure Log Analytics*.
+ The **Outbreak Response - GeoServer RCE Attack** solution pack works with the Threat Hunt rules in [Outbreak Response Framework](https://github.com/fortinet-fortisoar/solution-pack-outbreak-response-framework/blob/release/2.0.0/docs/background-information.md#threat-hunt-rules) solution pack to conduct hunts that identify and help investigate potential Indicators of Compromise (IOCs) associated with this vulnerability within operational environments of *FortiSIEM*, *FortiAnalyzer*, *QRadar*, *Splunk*, and *Azure Log Analytics*.
 
  The [FortiGuard Outbreak Page](https://www.fortiguard.com/outbreak-alert/geoserver-rce) contains information about the outbreak alert **Outbreak Response - GeoServer RCE Attack**. 
 
